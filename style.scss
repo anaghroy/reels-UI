@@ -24,7 +24,7 @@ main {
     black
   );
   padding: 20px;
- 
+
   section {
     height: 100%;
     width: 400px;
@@ -103,27 +103,37 @@ main {
           width: 40px;
           position: absolute;
           right: 0;
-          //   transform: translateX(100%);
           bottom: 12%;
           text-align: center;
           .icon {
             font-size: 24px;
-            cursor: pointer;
+            // cursor: pointer;
           }
           h6 {
             font-size: 18px;
-          }
-          .right > div {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
           }
         }
       }
     }
   }
 }
+.right > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  cursor: pointer;
+}
+.right > div h4 {
+  pointer-events: none;
+}
+.right > div h6 {
+  pointer-events: none;
+}
 .all-reels::-webkit-scrollbar {
   display: none;
+}
+.love {
+  color: red;
 }

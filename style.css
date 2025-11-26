@@ -104,18 +104,32 @@ main section .all-reels .reel .right {
 }
 main section .all-reels .reel .right .icon {
   font-size: 24px;
-  cursor: pointer;
 }
 main section .all-reels .reel .right h6 {
   font-size: 18px;
 }
-main section .all-reels .reel .right .right > div {
+
+.right > div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50px;
+  cursor: pointer;
+}
+
+.right > div h4 {
+  pointer-events: none;
+}
+
+.right > div h6 {
+  pointer-events: none;
 }
 
 .all-reels::-webkit-scrollbar {
   display: none;
+}
+
+.love {
+  color: red;
 }/*# sourceMappingURL=style.css.map */
