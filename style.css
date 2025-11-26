@@ -40,7 +40,6 @@ main section .all-reels .reel {
   height: 100%;
   width: 100%;
   position: relative;
-  background-color: rgb(163, 163, 248);
   overflow: hidden;
   border-radius: 10px;
   margin-bottom: 20px;
